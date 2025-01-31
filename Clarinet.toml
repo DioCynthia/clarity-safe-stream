@@ -4,6 +4,10 @@ authors = []
 description = ""
 telemetry = false
 requirements = []
+[contracts.safe-stream-core]
+path = "contracts/safe-stream-core.clar"
+depends_on = []
+
 [contracts.safe-stream-token]
 path = "contracts/safe-stream-token.clar"
 depends_on = []
